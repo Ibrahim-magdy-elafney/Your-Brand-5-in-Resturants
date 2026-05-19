@@ -30,27 +30,28 @@ body {
 
     }
 
+}
 
-    .box {
+.box {
 
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
-        flex-direction: column;
-        width: 100%;
-        gap: 15px;
-        align-items: center;
+    flex-direction: row;
+    width: 450px;
+    gap: 15px;
 
-        color: #fff;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 3px;
 
-    }
+    color: #fff;
 
 }
 
@@ -164,17 +165,42 @@ button:hover {
 
 }
 
-.text {
+.header-flex {
 
-    width: 100%;
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
 
 }
 
-.text2 {
+.section-flex {
 
-    margin-right: 50px;
-    margin-top: 20px;
+    display: flex;
 
+    align-items: center;
+
+    gap: 8px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
+.text {
+
+    width: 100%;
 
 }
 
@@ -193,11 +219,58 @@ img {
     }
 }
 
+.Burger {
+
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+    border-radius: 0;
+
+}
+
+.Bizza {
+
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+}
 
 .box a {
     color: #000;
     text-decoration: none;
 }
+
+.Mainbox {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 300px;
+    margin-right: 60px;
+
+
+}
+
+.Mainbox a {
+
+    color: #1a1a1a;
+    text-decoration: none;
+
+}
+
 
 .menu-card {
     display: flex;
