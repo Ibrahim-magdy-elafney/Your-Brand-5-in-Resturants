@@ -254,6 +254,7 @@ img {
     font-style: normal;
 
     font-size: 15px;
+    margin-right: 5px;
 
     display: flex;
     flex-direction: row;
@@ -270,8 +271,6 @@ img {
 
     color: #1a1a1a;
     text-decoration: none;
-    font-size: 15px;
-    margin-right: 5px;
 
 }
 
