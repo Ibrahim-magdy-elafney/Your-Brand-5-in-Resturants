@@ -220,7 +220,7 @@ img {
     }
 }
 
-.Burger {
+.Blate {
 
     width: 250px;
     height: 250px;
@@ -232,10 +232,10 @@ img {
 
 }
 
-.Bizza {
+.Blate2 {
 
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 0;
     padding: 0;
     object-fit: contain;
