@@ -253,6 +253,8 @@ img {
     font-weight: 600;
     font-style: normal;
 
+    font-size: 15px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -260,7 +262,7 @@ img {
     flex-wrap: wrap;
     list-style: none;
     width: 300px;
-    margin-right: 10px;
+    margin-right: 5px;
 
 }
 
