@@ -262,7 +262,7 @@ img {
     flex-wrap: wrap;
     list-style: none;
     width: 300px;
-    margin-right: 5px;
+
 
 }
 
@@ -270,6 +270,8 @@ img {
 
     color: #1a1a1a;
     text-decoration: none;
+    font-size: 15px;
+    margin-right: 5px;
 
 }
 
